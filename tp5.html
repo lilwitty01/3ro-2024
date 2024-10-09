@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+</head>
+<body>
+
+    <h3>eduardo rest</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del plato</th>
+                <th>Descripción</th>
+                <th>Precio (col)</th>
+            </tr>
+       </thead>
+    <tbody>
+        <tr>
+            <td>empanaditas </td>
+            <td>empanadas de pollo y huevo, carne y arroz, jamon y queso</td>
+            <td>$3250 (por unidad)</td>
+        </tr>
+        <tr>
+            <td>pizzas</td>
+            <td>muchas variedades de pizzas</td>
+            <td>$16,600, $11,100</td>
+        </tr>
+        <tr>
+            <td>arepas</td>
+            <td>muchas variedades de arepas artesanales </td>
+            <td>$4,100</td>
+        </tr>
+        <tr>
+            <td>salchipapas</td>
+            <td> fritas con salchichas y variedad de salsas</td>
+            <td>$8000</td>
+        </tr>
+        <tr>
+            <td>bandeja paisa</td>
+            <td>arroz blanco, caraotas,carne, chorizo y verduras </td>
+            <td>$15,800</td>
+        </tr>
+    </tbody>
+    </table>
+     <h2>Formulario de reserva</h2>
+         <form action=#>
+
+        <h3>Quien reserva</h3>
+    <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="telefono">telefono</label>
+            <input type="tel" name="telefono" id="telefono" required>
+    <br>
+        <h3>Detalles de la reserva</h3>
+    <br>    
+            <label for="personas">Cantidad de personas</label>
+            <input type="number" name="personas" id="personas" min="1" max="6" required>
+
+            <label for="fecha">Dia que quiere reservar</label>
+            <input type="date" name="fecha" id="fecha" required>
+
+            <label for="hora">Hora que quiere reservar</label>
+            <input type="time" name="hora" id="hora" required>
+    <br>
+
+            <label for="comentario">Comentario adicional </label>
+            <textarea name="comentario" id="comentario"></textarea>
+    <br>
+            <button type="submit">Enviar reserva</button>
+         </form>
